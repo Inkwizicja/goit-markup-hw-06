@@ -234,9 +234,9 @@ color: var(--mail-color);
 
 
 }
+}
 
-
-<!-- mobie menu --!>
+/* <!-- mobie menu --!> */
 
 .mobile-menu {
   position: fixed;
@@ -467,7 +467,9 @@ background: #4d5ae5;
 }
 
 @media screen and (min-resolution: 2x) {
-  background-image: linear-gradient { (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officemob2x.jpg); }
+.solutions {
+  background-image: linear-gradient (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officemob2x.jpg);
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -485,7 +487,9 @@ text-align: center;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officetab-min.jpg); 
 }
 @media screen and (min-resolution: 2x) {
-  background-image: linear-gradient { (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officetab2x.jpg); }
+.solutions {
+  background-image: linear-gradient (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officetab2x.jpg);
+}
 }
 
 }
@@ -531,7 +535,7 @@ text-align: center;
 }
 
 
-   <!-- benefits -->
+   /* <!-- benefits --> */
 
    .benefits {
     list-style: none;
