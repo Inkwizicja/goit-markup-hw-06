@@ -338,7 +338,7 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 color: #2e2f42;
   font-family: "Roboto", sans-serif;   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+  margin-bottom: 40px;  
 }
 .nav-link-mobile.current {
   position: relative;
@@ -1068,15 +1068,17 @@ transform: translateY(0%);
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: row;
+ flex-wrap: wrap;
+  
+
 }
-/* .webstudio-container {
-  display: block;
-  margin: 0;
-  width: 288px;
-} */
+.webstudio-container {
+ margin-bottom: 72px;
+ text-align: center;
+}
 .footer-link {
   
 font-family: Raleway, sans-serif;
@@ -1088,6 +1090,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
 margin-bottom: 16px;
+/* text-align: center; */
 }
 .footer-span {
     color: #F4F4FD;
@@ -1106,7 +1109,9 @@ margin: 0;
 .media-container {
   
   
-  align-items: baseline;
+  align-items: center;
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .footer-media {
@@ -1118,6 +1123,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
 margin-bottom: 16px;
+
 }
 
 .footer-svg {
@@ -1164,22 +1170,10 @@ display: flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-
 .footer-form-div {
- 
-   align-items: center;
-  justify-content: center;
+  align-items: center;
   text-align: center;
-  
-}
-  
+}  
 
 .footer-input {
 width: 288px;
@@ -1258,26 +1252,20 @@ background-color: #31D0AA;
 @media screen and (min-width: 768px) {
 
 .footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+ 
+  /* gap: 24px; */
   justify-content: center; 
 }
 .webstudio-container {
- display: flex;
+ 
   width: 264px;
+  margin-bottom: 72px;
+  margin-right: 24px;
 }
 
 .media-container {
-  display: flex;
+ 
   width: 208px;
-  
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
   
 }
 
@@ -1285,12 +1273,6 @@ background-color: #31D0AA;
 .footer-form {
   display: flex;
   gap: 24px;
-}
-.footer-form-div {
- 
-  width: 453px;
-  display: flex;
-  justify-content: center;
 }
 
 }
@@ -1306,11 +1288,12 @@ background-color: #31D0AA;
 .footer-container {
   display: flex;
   align-items: baseline;
+   margin-right: 120px;
 }
 
 .webstudio-container {
  
-  margin-right: 120px;
+ 
 }
 
 .footer-form {
